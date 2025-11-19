@@ -1038,7 +1038,7 @@ require("lazy").setup({
 vim.api.nvim_set_keymap(
   "n",
   "<leader>t",
-  ":leftabove vertical 60split | execute 'term' | lcd " .. vim.fn.getcwd() .. "<CR>",
+  ":leftabove vertical 100split | execute 'term' | lcd " .. vim.fn.getcwd() .. "<CR>",
   { noremap = true, silent = true }
 )
 
