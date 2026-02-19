@@ -256,6 +256,7 @@ require("lazy").setup({
 
   { -- norminette
     "MoulatiMehdi/42norm.nvim",
+    lazy = false,
     config = function()
       local norm = require("42norm")
 
